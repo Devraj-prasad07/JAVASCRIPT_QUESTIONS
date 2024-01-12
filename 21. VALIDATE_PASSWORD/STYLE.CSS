@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+
+  .form-sign-in {
+    background-color: aliceblue;
+    width: 300px;
+    height: 225px;
+    border: 2px solid black;
+    padding: 20px;
+  }
+
+  #email, #password {
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    width: calc(100% - 20px);
+  }
+
+  #btn {
+    padding: 10px;
+    margin-left: 80px;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 8px;
+    background-color: red;
+    cursor: pointer;
+  }
+
+  .error{
+    color: red;
+  }
+
+  .success{
+    color: green;
+  }
+
+  #validationMessage{
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  }
