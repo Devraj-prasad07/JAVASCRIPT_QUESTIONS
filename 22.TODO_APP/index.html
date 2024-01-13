@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+  </head>
+
+  <style>
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: wheat;
+    }
+
+  #heading{
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+  }
+  
+  p{
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+  }
+
+  #placeholder > input{
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    font-size: large;
+    color: brown;
+  }
+
+  #btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  #btn > button {
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  </style>
+
+  <body>
+    <div class="content-area">
+
+      <div id="heading">
+        <h1>TODO APP</h1>
+      </div>
+
+        <p>Enter your Todo items</p>
+
+      <div id="placeholder">
+        <input type="text">
+      </div>
+
+      <div id="btn">
+        <button id="add-to-your-list-btn">add to your list</button>
+      </div>
+
+    </div>
+    <script src="./script.js"></script>
+
+  </body>
+</html>
