@@ -1,0 +1,15 @@
+/* Create a numberChecker function that takes an array of numbers as an argument and returns a function. The
+returned function should take another number as an argument and return true if the number is in the array, and
+false otherwise. */
+
+function numberChecker(number){
+    return function(num){
+        return number.includes(num);
+    }
+}
+
+const array = [1,2,3,4,5];
+const checkNum = numberChecker(array);
+
+console.log(checkNum(5)); // True
+console.log(checkNum(8)); // False
